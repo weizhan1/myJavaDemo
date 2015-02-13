@@ -35,4 +35,4 @@ public reverse(ListNode head) {
       preNode = curNode;
       curNode = nextNode;
   }
-  
+}
