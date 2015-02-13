@@ -33,9 +33,6 @@ public reverse(ListNode head) {
       curNode.next = preNode;
       
       preNode = curNode;
-  }
-}
       curNode = nextNode;
   }
   
-  head = preNode;
